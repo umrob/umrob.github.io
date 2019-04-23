@@ -44,5 +44,15 @@ code, pre, tt {
 	background-color: #404145;
 	color: #FAFAFA;
 	border-radius: 2px;
+	// padding: 2px 5px;
+}
+
+pre, tt {
 	padding: 2px 5px;
+}
+
+// Add pading to code only in paragraphs
+p code {
+	padding: 2px 5px;
+	white-space: nowrap;
 }
